@@ -1,4 +1,4 @@
-# Robotics Level 1 : Interfacing Camera, Lights, Ultrasonic Distance Sensor and Speaker with robot
+# Robotics Level 2 : Interfacing Camera, Lights, Ultrasonic Distance Sensor and Speaker with robot
 
 The robot gets additional hardware. This repo contains code to interface robot with PiCamera, transistors (for switching 12V high brightness LEDs), Ultrasonic Distance Sensor and Speaker (for text to speech)
 
