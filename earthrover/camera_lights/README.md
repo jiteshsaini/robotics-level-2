@@ -11,11 +11,11 @@ Read the article: <a href='https://helloworld.co.in/article/basic-robotics-make-
 
 ## Code Files
 This directory contains the files specific to controlling the Pi Camera and 12 V high brightness LED Lights (through Transistor Switching Circuit). 
-Other files in the parent directory 'earthrover' contains the code for  Rest of the files in this repository 
+Overview of other files in the parent directory 'earthrover' is tabulated <a href='https://github.com/jiteshsaini/robotics-level-2'>here</a>. 
 
 ## Circuit Diagram 
 
-The hardware connections of the robot have been augmented to cater for additional hardware.Three additional GPIO pins are used in this project to interface Raspberry Pi with Transistor Switching Circuit for lighting 12 V LEDs.
+The hardware connections of the robot have been augmented to cater for additional hardware.Three additional GPIO pins are used in this project to interface Raspberry Pi with Transistor Switching Circuit for lighting 12 V LEDs. 
 
 <p align="center">
    <img src="https://helloworld.co.in/sites/default/files/inline-images/raspberry-pi-camera-robot-circuit-diagram.jpg">
