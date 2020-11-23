@@ -2,15 +2,15 @@
 
 Building upon the code created in <a href='https://github.com/jiteshsaini/robotics-level-1'>Robotics Level 1</a>, this repository contains code to interface the robot with additional hardware such as PiCamera, transistors (for switching 12V high brightness LEDs), Ultrasonic Distance Sensor and Speaker (for text to speech)
 
-The code for interfacing the additional hardware is placed in the respective folders inside 'earthrover' directory.
+The code for interfacing the additional hardware is placed in the following respective folders inside 'earthrover' directory:-
 
 - camera_lights
 - range_sensor
 - speaker
 
-Further, created a Web GUI or Web Control Panel of the robot. Using this panel, user can interact with the robot and control its hardware.
+Further, created a Web GUI or Web Control Panel for the robot. Using this panel, user can interact with the robot and control its hardware through a browser.
 
-Brief overview of the code is as follows:-
+Brief overview of the code present in this repository is as follows:-
 
 <table>
  <thead>
@@ -19,7 +19,7 @@ Brief overview of the code is as follows:-
 
  <tbody>
   
-  <tr><td>folder</td><td><a href='https://github.com/jiteshsaini/robotics-level-2/tree/master/earthrover/camera_lights'>camera_lights</a></td><td>contains code for video streaming using Pi Camera and interfacing GPIO pins with Transistor switching circuit. The live video feed can be monitored on the Web Control Panel.</td><td><a href='https://helloworld.co.in/article/camera-robot-using-raspberry-pi-web-controlled-surveillance-robot'>Read Article</a></td></tr>
+  <tr><td>folder</td><td><a href='https://github.com/jiteshsaini/robotics-level-2/tree/master/earthrover/camera_lights'>camera_lights</a></td><td>This folder contains code for streaming video using Pi Camera module and interfacing GPIO pins with Transistor switching circuit. The live video feed can be monitored on the Web Control Panel. The panel also has controls to switch ON/OFF the robot lights and camera.</td><td><a href='https://helloworld.co.in/article/camera-robot-using-raspberry-pi-web-controlled-surveillance-robot'>Read Article</a> for detailed code explaination and circuit diagram</td></tr>
   
   <tr><td>folder</td><td><a href='https://github.com/jiteshsaini/robotics-level-2/tree/master/earthrover/range_sensor'>range_sensor</a></td><td>This folder contains code for interfacing Raspberry Pi with Ultrasonic Range Sensor and associated Web controls.The folder contains python files to control Ultrasonic Distance Sensor HC-SR04 for measuring the distance from an obstacle.
 The distance measured by the sensor is displayed on the Web Control Panel when the sensor is turned ON.
