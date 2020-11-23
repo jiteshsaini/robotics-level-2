@@ -1,6 +1,6 @@
 # Robotics Level 2 : Interfacing Camera, Lights, Ultrasonic Distance Sensor and Speaker with robot
 
-Building upon the code created in level 1, this repository contains code to interface the robot with additional hardware such as PiCamera, transistors (for switching 12V high brightness LEDs), Ultrasonic Distance Sensor and Speaker (for text to speech)
+Building upon the code created in <a href='https://github.com/jiteshsaini/robotics-level-1'>Robotics Level 1</a>, this repository contains code to interface the robot with additional hardware such as PiCamera, transistors (for switching 12V high brightness LEDs), Ultrasonic Distance Sensor and Speaker (for text to speech)
 
 The code for interfacing the additional hardware is placed in the respective folders inside 'earthrover' directory.
 
@@ -19,13 +19,13 @@ Brief overview of the code is as follows:-
 
  <tbody>
   
-  <tr><td>folder</td><td>camera_lights</td><td>contains code for video streaming using Pi Camera and interfacing GPIO pins with Transistor switching circuit. The live video feed can be monitored on the Web Control Panel.</td><td><a href='https://helloworld.co.in/article/camera-robot-using-raspberry-pi-web-controlled-surveillance-robot'>Read Article</a></td></tr>
+  <tr><td>folder</td><td><a href='https://github.com/jiteshsaini/robotics-level-2/tree/master/earthrover/camera_lights'>camera_lights</a></td><td>contains code for video streaming using Pi Camera and interfacing GPIO pins with Transistor switching circuit. The live video feed can be monitored on the Web Control Panel.</td><td><a href='https://helloworld.co.in/article/camera-robot-using-raspberry-pi-web-controlled-surveillance-robot'>Read Article</a></td></tr>
   
-  <tr><td>folder</td><td>range_sensor</td><td>This folder contains code for interfacing Raspberry Pi with Ultrasonic Range Sensor and associated Web controls.The folder contains python files to control Ultrasonic Distance Sensor HC-SR04 for measuring the distance from an obstacle.
+  <tr><td>folder</td><td><a href='https://github.com/jiteshsaini/robotics-level-2/tree/master/earthrover/range_sensor'>range_sensor</a></td><td>This folder contains code for interfacing Raspberry Pi with Ultrasonic Range Sensor and associated Web controls.The folder contains python files to control Ultrasonic Distance Sensor HC-SR04 for measuring the distance from an obstacle.
 The distance measured by the sensor is displayed on the Web Control Panel when the sensor is turned ON.
 The robot is programmed to move backwards in case it detects an obstacle within 30 cm  </td><td> </td></tr>
   
-  <tr><td>folder</td><td>speaker</td><td>This folder contains code for Speaker interface (Text to Speech functionality and associated Web Controls. User can type the text on the Web Control panel which is passed to the robot over wifi LAN. The text is converted to robotic speech using ESPEAK module inside Raspberry Pi 
+  <tr><td>folder</td><td><a href='https://github.com/jiteshsaini/robotics-level-2/tree/master/earthrover/speaker'>speaker</a></td><td>This folder contains code for Speaker interface (Text to Speech functionality and associated Web Controls. User can type the text on the Web Control panel which is passed to the robot over wifi LAN. The text is converted to robotic speech using ESPEAK module inside Raspberry Pi 
 and spoken out through a mini speaker connected to the audio port of Raspberry Pi</td><td> </td></tr>
   
   <tr><td>folder</td><td>css</td><td>contains CSS files used in "index.php" and "remote.php" files</td><td> </td></tr>
