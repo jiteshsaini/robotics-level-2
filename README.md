@@ -14,8 +14,8 @@ Building upon the code created in <a href='https://github.com/jiteshsaini/roboti
 The code for interfacing the additional hardware is placed in the following respective folders inside 'earthrover' directory:-
 
 - <a href='https://github.com/jiteshsaini/robotics-level-2/tree/master/earthrover/camera_lights'>camera_lights</a>
-- <a href='https://github.com/jiteshsaini/robotics-level-2/tree/master/earthrover/range_sensor'>range_sensor</a><range_sensor</a>
-- <a href='https://github.com/jiteshsaini/robotics-level-2/tree/master/earthrover/speaker'>speaker</a>speaker</a>
+- <a href='https://github.com/jiteshsaini/robotics-level-2/tree/master/earthrover/range_sensor'>range_sensor</a>
+- <a href='https://github.com/jiteshsaini/robotics-level-2/tree/master/earthrover/speaker'>speaker</a>
 
 Further, created a Web GUI or Web Control Panel for the robot. Using this panel, user can interact with the robot and control its hardware through a browser.
 
