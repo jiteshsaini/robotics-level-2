@@ -2,10 +2,10 @@
 
 <p align="left">
 Read the article: <a href='https://helloworld.co.in/article/basic-robotics-make-robot-raspberry-pi-web-controls' target='_blank'>
-   <img src='https://github.com/jiteshsaini/earthrover1/blob/master/img/logo3.gif' height='40px'>
+   <img src='https://github.com/jiteshsaini/files/blob/main/img/logo3.gif' height='40px'>
 </a> Watch the video on Yotube: 
 <a href='https://youtu.be/rzKBtHxD3c8' target='_blank'>
-   <img src='https://github.com/jiteshsaini/earthrover1/blob/master/img/btn_youtube.png' height='40px'>
+   <img src='https://github.com/jiteshsaini/files/blob/main/img/btn_youtube.png' height='40px'>
 </a>
 </p>
 
