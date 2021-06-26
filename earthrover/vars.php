@@ -43,7 +43,7 @@ function gpio_initialise(){
 }
 
 function set_speed($pwm_val){
-    $myFile = "/var/www/html/earthrover/control_panel/pwm/pwm1.txt";
+    $myFile = "/var/www/html/earthrover/pwm/pwm1.txt";
     $fh = fopen($myFile, 'w') or die("can't open file");
     fwrite($fh, $pwm_val);
     fclose($fh);
@@ -52,7 +52,7 @@ function set_speed($pwm_val){
 	pi ALL=(ALL) NOPASSWD: ALL
 	www-data ALL=(ALL) NOPASSWD: ALL
     */
-    exec("sudo python /var/www/html/earthrover/control_panel/pwm/pwm_control.py");# launch Python script
+    exec("sudo python /var/www/html/earthrover/pwm/pwm_control.py");# launch Python script
 
 }
 
